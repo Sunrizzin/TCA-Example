@@ -11,6 +11,8 @@
 		D8CBBEB22ADFB5AA00A14551 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBBEB12ADFB5AA00A14551 /* ContentView.swift */; };
 		D8CBBEB42ADFB5AB00A14551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CBBEB32ADFB5AB00A14551 /* Assets.xcassets */; };
 		D8CBBEB72ADFB5AB00A14551 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CBBEB62ADFB5AB00A14551 /* Preview Assets.xcassets */; };
+		D8CBBEBE2ADFB60400A14551 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBBEBD2ADFB60400A14551 /* CounterFeature.swift */; };
+		D8CBBEC12ADFB64700A14551 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = D8CBBEC02ADFB64700A14551 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,7 @@
 		D8CBBEB12ADFB5AA00A14551 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8CBBEB32ADFB5AB00A14551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8CBBEB62ADFB5AB00A14551 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8CBBEBD2ADFB60400A14551 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CBBEC12ADFB64700A14551 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +59,7 @@
 				D8CBBEB12ADFB5AA00A14551 /* ContentView.swift */,
 				D8CBBEB32ADFB5AB00A14551 /* Assets.xcassets */,
 				D8CBBEB52ADFB5AB00A14551 /* Preview Content */,
+				D8CBBEBD2ADFB60400A14551 /* CounterFeature.swift */,
 			);
 			path = TCAExample;
 			sourceTree = "<group>";
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = TCAExample;
+			packageProductDependencies = (
+				D8CBBEC02ADFB64700A14551 /* ComposableArchitecture */,
+			);
 			productName = TCAExample;
 			productReference = D8CBBEAC2ADFB5AA00A14551 /* TCAExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = D8CBBEA32ADFB5AA00A14551;
+			packageReferences = (
+				D8CBBEBF2ADFB64700A14551 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = D8CBBEAD2ADFB5AA00A14551 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CBBEBE2ADFB60400A14551 /* CounterFeature.swift in Sources */,
 				D8CBBEB22ADFB5AA00A14551 /* ContentView.swift in Sources */,
 				D8CBBEB02ADFB5AA00A14551 /* TCAExampleApp.swift in Sources */,
 			);
@@ -344,6 +356,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8CBBEBF2ADFB64700A14551 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8CBBEC02ADFB64700A14551 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8CBBEBF2ADFB64700A14551 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D8CBBEA42ADFB5AA00A14551 /* Project object */;
 }
