@@ -31,3 +31,5 @@ struct CounterFeature: Reducer {
     }
     
 }
+
+extension CounterFeature.State: Equatable {}
