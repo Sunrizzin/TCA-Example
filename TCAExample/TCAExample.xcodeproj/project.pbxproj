@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D8CBBEB02ADFB5AA00A14551 /* TCAExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBBEAF2ADFB5AA00A14551 /* TCAExampleApp.swift */; };
-		D8CBBEB22ADFB5AA00A14551 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBBEB12ADFB5AA00A14551 /* ContentView.swift */; };
 		D8CBBEB42ADFB5AB00A14551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CBBEB32ADFB5AB00A14551 /* Assets.xcassets */; };
 		D8CBBEB72ADFB5AB00A14551 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CBBEB62ADFB5AB00A14551 /* Preview Assets.xcassets */; };
 		D8CBBEBE2ADFB60400A14551 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBBEBD2ADFB60400A14551 /* CounterFeature.swift */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		D8CBBEAC2ADFB5AA00A14551 /* TCAExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CBBEAF2ADFB5AA00A14551 /* TCAExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAExampleApp.swift; sourceTree = "<group>"; };
-		D8CBBEB12ADFB5AA00A14551 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8CBBEB32ADFB5AB00A14551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8CBBEB62ADFB5AB00A14551 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D8CBBEBD2ADFB60400A14551 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
@@ -58,11 +56,10 @@
 			isa = PBXGroup;
 			children = (
 				D8CBBEAF2ADFB5AA00A14551 /* TCAExampleApp.swift */,
-				D8CBBEB12ADFB5AA00A14551 /* ContentView.swift */,
-				D8CBBEB32ADFB5AB00A14551 /* Assets.xcassets */,
-				D8CBBEB52ADFB5AB00A14551 /* Preview Content */,
 				D8CBBEBD2ADFB60400A14551 /* CounterFeature.swift */,
 				D8CBBEC22ADFB81C00A14551 /* CounterView.swift */,
+				D8CBBEB32ADFB5AB00A14551 /* Assets.xcassets */,
+				D8CBBEB52ADFB5AB00A14551 /* Preview Content */,
 			);
 			path = TCAExample;
 			sourceTree = "<group>";
@@ -152,7 +149,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8CBBEBE2ADFB60400A14551 /* CounterFeature.swift in Sources */,
-				D8CBBEB22ADFB5AA00A14551 /* ContentView.swift in Sources */,
 				D8CBBEB02ADFB5AA00A14551 /* TCAExampleApp.swift in Sources */,
 				D8CBBEC32ADFB81C00A14551 /* CounterView.swift in Sources */,
 			);
